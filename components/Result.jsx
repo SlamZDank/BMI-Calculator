@@ -6,7 +6,7 @@ const Result = ({ bmi }) => {
   if (bmi < 18.5) {
     text = "You are underweight!";
   } else if (bmi >= 18.5 && bmi < 25) {
-    text = "You have a normal wight!";
+    text = "You have a normal weight!";
   } else if (bmi >= 25 && bmi < 30) {
     text = "You are overweight!";
   } else if (bmi >= 20) {
